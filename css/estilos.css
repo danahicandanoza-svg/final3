@@ -1,0 +1,130 @@
+/* Configuración general */
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Encabezados y títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #03045e;
+}
+
+/* Estilos de la barra de navegación (Navbar) */
+.navbar {
+    background-color: #a2d2ff !important;
+    padding: 15px 20px;
+}
+
+#logo-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    color: #03045e;
+}
+
+img.logo {
+    width: 80px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #03045e !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0077b6 !important;
+}
+
+/* Contenido Principal */
+#Contenido {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #caf0f8;
+    color: #03045e;
+    border-radius: 10px;
+}
+
+#Contenido h1 {
+    font-size: 32pt;
+    color: #03045e;
+}
+
+#imagen-principal {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para Tarjetas (Cards) */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #0077b6 !important;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #03045e;
+    font-size: 11pt;
+}
+
+/* Información de Contacto */
+.contact-info {
+    font-size: 14pt;
+    font-family: 'Roboto', sans-serif;
+    color: #0077b6;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contact-info strong {
+    font-weight: bold;
+    font-size: 15pt;
+    color: #03045e;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Lista de Servicios */
+#servicios-list {
+    display: inline-block;
+    text-align: left;
+}
+
+#servicios-list a {
+    color: #023e8a;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+#servicios-list a:hover {
+    color: #00b4d8;
+}
+
+#servicios-list hr {
+    border: 2px solid #0077b6;
+    opacity: 1;
+    margin: 15px 0;
+}
+
+/* Pie de Página (Footer) */
+#footer {
+    background-color: #a2d2ff;
+    padding: 20px;
+    font-size: 12pt;
+    font-family: 'Roboto', sans-serif;
+    color: #03045e;
+    text-align: center;
+    border-radius: 8px;
+}
